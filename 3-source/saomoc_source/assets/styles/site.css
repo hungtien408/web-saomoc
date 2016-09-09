@@ -1607,9 +1607,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e4371', end
   text-align: center;
   width: 80%;
 }
-.gallery-slider {
-  padding: 10px 75px;
-}
 .slider-big, .slider-big .gallery-img {
     text-align:center;
     vertical-align:middle;
@@ -1623,7 +1620,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e4371', end
 .gallery-slider
 {
     margin: 0 auto;
-    width: 100%;
+    width: 800px;
 }
 .slider-for
 {
@@ -1631,7 +1628,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e4371', end
 }
 .slider-big, .slider-big .gallery-img
 {
-    background-color: #000;
     position: relative;
     width: 100%;
     z-index: 1;
