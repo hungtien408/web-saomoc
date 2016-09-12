@@ -12,6 +12,23 @@
             controlNav: false,
             animSpeed: 1500,
         });
+        $('#carousel').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 155,
+            itemMargin: 5,
+            asNavFor: '#slider'
+        });
+
+        $('#slider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            sync: "#carousel"
+        });
     });
     $(function () {
         myfunload();
@@ -395,7 +412,7 @@ function myListTb() {
         var projectmain = $('.project-main').imagesLoaded(function () {
             projectmain.textHeight({
                 activetit: true,
-                listcss: [{ cssname: ".project-box" }, { cssname: ".project-img" }, { cssname: ".project-name" }],
+                listcss: [ { cssname: ".project-img" }, { cssname: ".project-name" }],
                 desbool: false,
                 listpos: [{ cssnamepos: ".description", cssheightnum: "3" }],
                 tbrow: true,

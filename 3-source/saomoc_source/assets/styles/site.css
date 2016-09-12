@@ -1264,17 +1264,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e4371', end
       width: 100%;
     }
     .project-box {
-      padding: 10px;
+      padding: 10px 10px 30px 10px;
       overflow:hidden;
       margin-bottom:20px;
     }
         .project-box:hover {
-            border:1px solid #ccc;
-             box-shadow: 4px 4px 6px 0 rgba(102, 102, 102, 0.5);
-        -moz-box-shadow: 4px 4px 6px 0 rgba(102, 102, 102, 0.5);
-        -webkit-box-shadow: 4px 4px 6px 0 rgba(102, 102, 102, 0.5);
-        -o-box-shadow:4px 4px 6px 0 rgba(102, 102, 102, 0.5);
-        -ms-box-shadow: 4px 4px 6px 0 rgba(102, 102, 102, 0.5);
+            /*border:1px solid #ccc;*/
+             box-shadow: 4px 4px 6px 1px rgba(102, 102, 102, 0.5);
+            -moz-box-shadow: 4px 4px 6px 1px rgba(102, 102, 102, 0.5);
+            -webkit-box-shadow: 4px 4px 6px 1px rgba(102, 102, 102, 0.5);
+            -o-box-shadow:4px 4px 6px 1px rgba(102, 102, 102, 0.5);
+            -ms-box-shadow: 4px 4px 6px 1px rgba(102, 102, 102, 0.5);
          }
 .project-name {
     padding:10px 0;
