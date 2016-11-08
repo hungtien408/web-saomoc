@@ -28,9 +28,8 @@
                 <div class="col-md-6">
                     <div class="wrap-send">
                         <p>
-                            Hãy liên hệ chúng tôi theo địa chỉ có trên bản đồ hoặc gửi tin nhắn cho chúng tôi
-                            theo mẫu form sau đây, chúng tôi sẽ trả lời sớm nhất ngay khi nhận được email của
-                            quý khách.</p>
+                            Please contact us at the address on the map, or send a message to us in the form
+                            of the following form, we will reply as soon as soon as we receive your email.</p>
                         <div class="row">
                             <div class="col-xs-6">
                                 <div class="contact-w">
