@@ -72,7 +72,7 @@
                                 <p>
                                     <asp:Label ID="Label1" runat="server" Text='<%# Eval("Content") %>'></asp:Label></p>
                             </div>
-                            <div id="tabs" class="tab-product">
+                            <%--<div id="tabs" class="tab-product">
                                 <ul>
                                     <li><a href="#tabs-1">Specification</a></li>
                                     <li><a href="#tabs-2">Manufacturer</a></li>
@@ -93,19 +93,63 @@
                                         <asp:Label ID="Label4" runat="server" Text='<%# Eval("MajorApplication") %>'></asp:Label>
                                     </div>
                                 </div>
-                            </div>
+                            </div>--%>
                         </ItemTemplate>
                         <LayoutTemplate>
                             <span runat="server" id="itemPlaceholder" />
                         </LayoutTemplate>
                     </asp:ListView>
-                    <asp:ObjectDataSource ID="odsProductDetails" runat="server" SelectMethod="ProductSelectOne"
+                    <%--<asp:ObjectDataSource ID="odsProductDetails" runat="server" SelectMethod="ProductSelectOne"
                         TypeName="TLLib.Product">
                         <SelectParameters>
                             <asp:QueryStringParameter Name="ProductID" QueryStringField="pi" Type="String" />
                         </SelectParameters>
-                    </asp:ObjectDataSource>
+                    </asp:ObjectDataSource>--%>
                 </div>
+            </div>
+            <div class="product-main">
+                <asp:ListView ID="lstProductDetailTab" runat="server" DataSourceID="odsProductDetails"
+                    EnableModelValidation="True">
+                    <ItemTemplate>
+                        <%--<div class="pruduct-content">
+                            <h1>
+                                <%# Eval("ProductName") %></h1>
+                            <p>
+                                <asp:Label ID="Label1" runat="server" Text='<%# Eval("Content") %>'></asp:Label></p>
+                        </div>--%>
+                        <div id="tabs" class="tab-product">
+                            <ul>
+                                <li><a href="#tabs-1">Specification</a></li>
+                                <li><a href="#tabs-2">Manufacturer</a></li>
+                                <li><a href="#tabs-3">More</a></li>
+                            </ul>
+                            <div id="tabs-1">
+                                <div class="tab-box">
+                                    <asp:Label ID="Label2" runat="server" Text='<%# Eval("Specification") %>'></asp:Label>
+                                </div>
+                            </div>
+                            <div id="tabs-2">
+                                <div class="tab-box">
+                                    <asp:Label ID="Label3" runat="server" Text='<%# Eval("ProductApplicant") %>'></asp:Label>
+                                </div>
+                            </div>
+                            <div id="tabs-3">
+                                <div class="tab-box">
+                                    <asp:Label ID="Label4" runat="server" Text='<%# Eval("MajorApplication") %>'></asp:Label>
+                                </div>
+                            </div>
+                        </div>
+                    </ItemTemplate>
+                    <LayoutTemplate>
+                        <span runat="server" id="itemPlaceholder" />
+                    </LayoutTemplate>
+                </asp:ListView>
+                <asp:ObjectDataSource ID="odsProductDetails" runat="server" SelectMethod="ProductSelectOne"
+                    TypeName="TLLib.Product">
+                    <SelectParameters>
+                        <asp:QueryStringParameter Name="ProductID" QueryStringField="pi" Type="String" />
+                    </SelectParameters>
+                </asp:ObjectDataSource>
             </div>
             <div class="title-box">
                 <div class="main-title">
