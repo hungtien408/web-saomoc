@@ -2,8 +2,8 @@
     CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="Server">
-    <title>SM</title>
-    <meta name="description" content="SM" />
+    <title>JUPITER</title>
+    <meta name="description" content="JUPITER" />
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div id="banner" class="slider-wrapper theme-default">

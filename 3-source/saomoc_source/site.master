@@ -95,8 +95,8 @@
                         <ul id="menu">
                             <li class="active"><a href="Default.aspx">Home</a></li>
                             <li><a href="about-us.aspx">About us</a> </li>
-                            <li><a href="product.aspx">Product</a></li>
-                            <li><a href="project.aspx">Project</a></li>
+                            <li><a href="product.aspx">Products</a></li>
+                            <li><a href="project.aspx">Projects</a></li>
                             <li><a href="news.aspx">News</a></li>
                             <li><a href="career.aspx">Career</a></li>
                             <li><a href="contact.aspx">Contact us</a></li>
