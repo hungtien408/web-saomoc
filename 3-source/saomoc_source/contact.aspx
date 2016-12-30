@@ -22,7 +22,7 @@
                         <p>
                             <span class="fa fa-phone"></span>(+848) 38457823 - 38457967 - 38457876</p>
                         <p>
-                            <span class="fa fa-envelope"></span>Email: <a href="mailto:info@saomoc.com.vn">info@saomoc.com.vn</a></p>
+                            <span class="fa fa-envelope"></span>Email: <a href="mailto:info@jupiter.com.vn">info@jupiter.com.vn</a></p>
                     </div>
                 </div>
                 <div class="col-md-6">
