@@ -60,10 +60,10 @@
             <div class="title-product">
                 <h3>
                     Our Products</h3>
-                <p>
+                <%--<p>
                     The PC Wire is made from high carbon steel drawn to size meeting the requirements
                     for most pre-stressed concrete works. Surface type includes Chervon, Crimped, Indented
-                    and Plain</p>
+                    and Plain</p>--%>
             </div>
             <div class="wrapper-product">
                 <div class="row produc-tblist">
